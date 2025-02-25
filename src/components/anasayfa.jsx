@@ -1,14 +1,14 @@
 import { useHistory } from "react-router-dom";
 import "./anasayfa.css";
 
-export default function Home() {
+export default function Anasayfa() {
     const history = useHistory();
 
     return (
 
         <div className="container">
             <div className="title">
-            <img src="../images/iteration-1-images/logo.svg" alt="Logo" className="logo" ></img>
+            <img src="../images/iteration-1-images/logo.svg" alt="Logo"></img>
             <h2 className="subtitle">KOD ACIKTIRIR<br />PİZZA, DOYURUR</h2>
             <button 
             className="button"

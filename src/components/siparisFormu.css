@@ -1,0 +1,28 @@
+#root .siparis-formu{
+    display: flex;
+    justify-content: flex-start;
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.siparis-formu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.siparis-header{
+    width: 100%;
+    background-color: #CE2829;
+    font-size: 8px;
+    height: 100px;
+    padding-top: 50px;
+}
+
+.form-grup{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
