@@ -15,7 +15,7 @@ export default function SiparisFormu() {
     const [quantity, setQuantity] = useState(1);
     const history = useHistory();
 
-const extraOptions = [
+const extraIngredients = [
     'Pepperoni',
     'Sosis',
     'Kanada Jambonu',
@@ -58,14 +58,14 @@ const handleSubmit = async (event) => {
         return;
     }
 
-    const orderData = {
-        size,
-        dough,
-        extras,
-        quantity,
-        note,
-        totalPrice,
-    };
+const orderData = {
+    size,
+    dough,
+    extras,
+    quantity,
+    note,
+    totalPrice,
+};
 
     axios.post('https://reqres.in/api/pizza', orderData)
     .then((response) => {
@@ -125,7 +125,7 @@ const handleSubmit = async (event) => {
             <p className="section-title">Ek Malzemeler </p>
             <p>En fazla 10 malzeme seçebilirsiniz. (5₺) </p>
             <div className="malzeme-section">
-                {extraOptions.map((option) => (
+                {extraIngredients.map((option) => (
                 <label key={option} className="checkbox-label">
                     <input
                     type="checkbox"
