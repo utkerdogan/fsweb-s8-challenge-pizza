@@ -1,8 +1,19 @@
-
+import { useHistory } from "react-router-dom";
+import { useEffect } from "react";
 import "./siparisOnayi.css"
 
 
 export default function SiparisOnayi(){
+
+    const history = useHistory();
+
+    useEffect(() => {
+        const timer = setTimeout(() => {
+        history.push('/');
+    }, 3000);
+
+    return () => clearTimeout(timer);
+    }, []);
 
     return (
         <div className="siparis-onayi">

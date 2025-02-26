@@ -17,7 +17,7 @@ export default function Anasayfa() {
             ACIKTIM
             </button>
             </div>
-            <img src="../images/iteration-1-images/home-banner.png" alt="Background" class="background-image"></img>
+            <img src="../images/iteration-1-images/home-banner.png" alt="Background" className="background-image"></img>
         </div>
 
     );
