@@ -81,7 +81,7 @@ const orderData = {
         
         <div className="siparis-formu">
             <div className="siparis-header">
-            <img src="../images/iteration-1-images/logo.svg" alt="Logo" ></img>
+            <img src="../images/iteration-1-images/logo.svg" alt="Logo"></img>
             </div>
 
             <form onSubmit={handleSubmit} className="pizza-container">

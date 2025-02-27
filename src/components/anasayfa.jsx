@@ -8,7 +8,7 @@ export default function Anasayfa() {
 
         <div className="container">
             <div className="title">
-            <img src="../images/iteration-1-images/logo.svg" alt="Logo"></img>
+            <img src="../images/iteration-1-images/logo.svg" alt="Logo" className="logo"></img>
             <h2 className="subtitle">KOD ACIKTIRIR<br />PİZZA, DOYURUR</h2>
             <button 
             className="button"
